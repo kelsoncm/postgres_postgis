@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker login
+
+docker push kelsoncm/postgres_postgis:10.5_2.4  
+docker push kelsoncm/postgres_postgis:10.5_2.4-alpine
+

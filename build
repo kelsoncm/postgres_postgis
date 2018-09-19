@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker build -t kelsoncm/postgres_postgis:10.5_2.4 --force-rm 10.5_2.4/
+docker build -t kelsoncm/postgres_postgis:10.5_2.4-alpine --force-rm 10.5_2.4-alpine/
+
